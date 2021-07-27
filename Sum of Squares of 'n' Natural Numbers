@@ -1,0 +1,20 @@
+#include <conio.h>
+#include <stdio.h>
+int sumofsquareofnnaturalnum(int m)
+{
+	int sum=0;
+	for(int i=1;i<=m;i++)
+	{
+		sum+=i*i;
+	}
+	return sum;
+}
+int main()
+{
+	int n;
+	printf("enter the end number: ");
+	scanf("%d",&n);
+	int sol = sumofsquareofnnaturalnum(n);
+	printf("The sum of square of %d natural number is %d", n, sol);
+	return(0);
+}
