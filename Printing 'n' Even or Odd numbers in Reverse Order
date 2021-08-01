@@ -1,0 +1,33 @@
+//For Even Numbers
+
+#include <conio.h>
+#include <stdio.h>
+main()
+{
+	int n;
+	printf("enter a natural number: ");
+	scanf("%d",&n);
+	while(n)
+	{
+		printf("%d ",2*n);
+		n--;
+	}
+	getch();
+}
+
+//For Odd Numbers
+
+#include <conio.h>
+#include <stdio.h>
+main()
+{
+	int N;
+	printf("enter a natural number");
+	scanf("%d",&N);
+	while(N)
+	{
+		printf("%d ",2*N+1);
+		N--;
+	}
+	getch();
+}
